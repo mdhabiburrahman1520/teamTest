@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deshboard</title>
+    <link rel="stylesheet" href="assest/css_plugins/font-awesome.min.css">
+    <link rel="stylesheet" href="assest/css_plugins/bootstrap.css">
+    <link rel="stylesheet" href="assest/style.css">
+</head>
+<body>
+
+     <!-------Top Bar Menu start ------>
+
+    <div class="menubar">
+        <!-- sidebar toggoler checkbox start here -->
+         <input type="checkbox" id="btn" hidden>
+         <label for="btn" class="menu-btn">
+             <i class="fas fa-bars"></i>
+             <i class="fas fa-times"></i>
+         </label><!-- sidebar toggoler checkbox [end] here -->
+          <!-- sidebar menu start here -->
+        <nav id="sidebar">
+             <div class="sidebar_logo">
+               <!-- <img class="" src="assest/images/logo2.png" alt=""> -->
+               <h2>logo here</h2>
+             </div>
+            <ul class="list-items">
+                <li>
+                    <span class="course-btn">Course
+                        <span class="fas fa-caret-down course_icon"></span>
+                    </span>
+                    <ul class="course-show">
+                        <li><a href="#">New Course</a></li>
+                        <li><a href="#">Manage Course</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <span class="lesson-btn">Lesson
+                        <span class="fas fa-caret-down lesson_icon"></span>
+                    </span>
+                    <ul class="lesson-show">
+                        <li><a href="#">New Lesson</a></li>
+                        <li><a href="#">Manage Lesson</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <span class="student-btn">Student
+                        <span class="fas fa-caret-down student_icon"></span>
+                    </span>
+                    <ul class="student-show">
+                        <li><a href="#">New Student</a></li>
+                        <li><a href="#">Manage Student</a></li>
+                    </ul>
+                </li>
+               
+            </ul>
+            <li class="settings"><a href="#"><i class="fas fa-cog"></i> Settings</a></li>
+        </nav><!-- sidebar menu [end] here -->
+         <!-- Menu logo -->
+        <div class="logo">
+             <!-- <img src="assest/images/min_logo.png" alt=""> -->
+             <h2>logo here</h2>
+        </div><!-- Menu logo [end] -->
+         <!-- profile start here  -->
+        <div class="profile">
+            <li>
+                <span href="#" class="top_dropdown-btn"><i class="far fa-user-circle"></i>
+                <span class="fas fa-caret-down top_dropdown_icon"></span>
+                </span>
+                <ul class="top_dropdown-show">
+                    <li><a href="#">My Account</a></li>
+                    <li><a href="#">LogOut</a></li>
+                </ul>
+            </li>
+        </div><!-- profile [end] here  -->
+    </div><!-------Top Bar Menu [end] here ------>
+
+    <!-----------------------------Main Wrapper--------------->
+    <div class="wrapper">
+        <!--------------------main container------------->
+        <div class="container">
+            <!----------- Enrollment course box--------->
+           <div class="enrollment_course">
+               <div class="content">
+                   <!-- course enroll box -->
+                    <div class="enrooled_box items">
+                       <div class="items_content">
+                            <i class="fas fa-users"></i>
+                            <p class="total_enrolled">10</p>
+                            <p>Total Enrolled</p>
+                       </div>
+                    </div> <!-- course enroll box end -->
+                     <!-- total course box -->
+                    <div class="course_box items">
+                        <div class="items_content">
+                            <i class="fas fa-clipboard-list"></i>
+                             <p class="total_course">5</p>
+                             <p>Total Course</p>
+                        </div>
+                    </div><!-- total course box end -->
+               </div>
+           </div><!----------- Enrollment course box end--------->
+
+           <!-------- Course management box----- -->
+           <div class="course_manage_box">
+                <!-------- Course management box contetn----- -->
+               <div class="courseM_content">
+                   <!-- new course -->
+                    <a href="#" class="newCourse items">
+                        <div class="items_content">
+                            <div class="icon_box">
+                                <img src="assest/images/icons/newcourse.svg" alt="">
+                            </div>
+                            
+                            <p class="box_title">New Course</p>
+                        </div>
+                    </a><!-- new course end-->
+
+                    <!-- manage course -->
+                    <a href="#" class="manageCourse items">
+                        <div class="items_content">
+                            <div class="icon_box">
+                                 <img src="assest/images/icons/coursemanage.svg" alt="">
+                            </div>
+                           
+                            <p class="box_title">Manage Course</p>
+                        </div>
+                    </a><!-- manage course end-->
+
+                    <!-- new student -->
+                    <a href="#" class="newStudent items">
+                        <div class="items_content">
+                            <div class="icon_box">
+                                  <img src="assest/images/icons/student.svg" alt="">
+                            </div>
+                          
+                            <p class="box_title">New Student</p>
+                        </div>
+                    </a><!--  new student end-->
+
+                    <!-- manage student -->
+                    <a href="#" class="manageStudent items">
+                        <div class="items_content">
+                            <div class="icon_box">
+                                <img src="assest/images/icons/studentmanage.svg" alt="">
+                            </div>
+                            
+                            <p class="box_title">Manage Student</p>
+                        </div>
+                    </a><!--  manage student end-->
+
+                    <!-- new lesson -->
+                    <a href="#" class="newLeson items">
+                        <div class="items_content">
+                            <div class="icon_box">
+                                 <img src="assest/images/icons/lesson.svg" alt="">
+                            </div>
+                           
+                            <p class="box_title">New Lesson</p>
+                        </div>
+                    </a><!--  new lesson end-->
+
+                    <!-- manage lesson -->
+                    <a href="#" class="manageLeson items">
+                        <div class="items_content">
+                            <div class="icon_box">
+                                <img src="assest/images/icons/lessonmanage.svg" alt="">
+                            </div>
+                            
+                            <p class="box_title">Manage Lesson</p>
+                        </div>
+                    </a><!--  manage lesson end-->
+                    
+
+               </div> <!-------- Course management box contetn----- -->
+           </div> <!-------- Course management box end----- -->
+
+
+
+        </div><!--------------------main container end------------->
+        <footer>
+            <p>Copyright ©Abdul Malik 2021</p>
+        </footer>
+    </div><!-----------------------------Main Wrapper end--------------->
+    
+    <script src="assest/js_plugins/jquery-1.12.4.min.js"></script>
+    <script src="assest/js_plugins/bootstrap.min.js"></script>
+    <script src="assest/js_plugins/popper.min.js"></script>
+    <script src="assest/app.js"></script>
+    <script src="https://kit.fontawesome.com/f0ce275083.js"></script>
+    
+</body>
+</html>
